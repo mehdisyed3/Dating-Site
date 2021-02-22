@@ -4,7 +4,7 @@ import './Cards.css'
 function Cards() {
   return (
     <div className='cards'>
-      
+        This is the Cards comoennet
     </div>
   )
 }
