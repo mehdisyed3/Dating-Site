@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.css'
 import IconButton from '@material-ui/core/IconButton'
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import PersonIcon from '@material-ui/icons/Person'
 import ForumIcon from '@material-ui/icons/Forum'
 

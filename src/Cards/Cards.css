@@ -1,6 +1,12 @@
+
+.cards{
+  margin-top: -50px;
+}
+
 .cards__individualCard{
   position: relative;
   background-color: #fff;
+
   width: 600px;
   padding: 20px;
   max-width: 85vw;
