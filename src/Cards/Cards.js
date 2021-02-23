@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Cards.css'
-import TinderCard from "react-tinder-card";
+import Card from "react-tinder-card";
 
 function Cards() {
   const [people, setPeople] = useState([
@@ -38,12 +38,12 @@ function Cards() {
 
 
   return (
-    <div className='tinderCards'>
+    <div className='cards'>
 
-<div className="tinderCards__cardContainer">
+      <div className="cards__Container">
         {people.map((person) => (
-          <TinderCard
-            className="swipe"
+          <Card
+            className="cards__swipe"
             key={person.name}
             preventSwipe={["up", "down"]}
             onSwipe={(dir) => swiped(dir, person.name)}
@@ -51,11 +51,11 @@ function Cards() {
           >
             <div
               style={{ backgroundImage: `url(${person.url})` }}
-              className="card"
+              className="cards__individualCard"
             >
               <h3>{person.name}</h3>
             </div>
-          </TinderCard>
+          </Card>
         ))}
       </div>
 
