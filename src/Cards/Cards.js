@@ -34,9 +34,7 @@ function Cards() {
   const outOfFrame = (name) => {
     console.log(name + 'left the screen')
   }
-
-
-
+  
   return (
     <div className='cards'>
 

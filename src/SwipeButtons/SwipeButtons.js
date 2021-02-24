@@ -8,7 +8,6 @@ import FavoriteIcon from '@material-ui/icons/Favorite'
 import FlashOnIcon from '@material-ui/icons/FlashOn'
 
 
-
 function SwipeButtons() {
   return (
     <div className='swipeButtons'>
