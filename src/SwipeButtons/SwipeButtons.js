@@ -7,11 +7,12 @@ import StarRateIcon from '@material-ui/icons/StarRate'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import FlashOnIcon from '@material-ui/icons/FlashOn'
 
+//del tgus 
 
 function SwipeButtons() {
   return (
     <div className='swipeButtons'>
-      
+
       <IconButton className='swipeButtons__repeat'>
         <ReplayIcon fontSize='large' />
       </IconButton>
