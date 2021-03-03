@@ -5,7 +5,7 @@ import Header from './Header/Header'
 import SwipeButtons from './SwipeButtons/SwipeButtons';
 
 
-//1:23:18 
+//2:15:00
 function App() {
   return (
     <div className="app">
