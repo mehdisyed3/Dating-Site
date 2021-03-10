@@ -1,19 +1,17 @@
-.header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 100;
-  padding: 3px;
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 100;
+	padding: 3px;
 }
 
-.header__logo{
-
-  object-fit: contain;
-  height: 40px;
-  width: 50px;
-
+.header__logo {
+	object-fit: contain;
+	height: 40px;
+	width: 50px;
 }
 
-.header__icon{
-  padding: 20px;
+.header__icon {
+	padding: 20px;
 }
